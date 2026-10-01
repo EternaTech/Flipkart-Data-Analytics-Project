@@ -15,7 +15,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 # Loop through the first page till the last page of search results
 for page in range(1,300):
 
-    url = "PUT_YOUR_FLIPKART_SEARCH_URL_HERE"
+    url = "PUT_YOUR_URL_HERE"
     response = requests.get(url,headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
 
