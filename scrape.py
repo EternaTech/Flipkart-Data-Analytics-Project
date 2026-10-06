@@ -19,7 +19,7 @@ for page in range(1,300):
     response = requests.get(url,headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    cards = soup.find_all('div', class_ = 'jIjQ8S')
+    cards = soup.find_all('div', class_ = 'jIjQ8S') # Find all the cards in the page
     print('Page',page,"| Cards", len(cards))
 
 # If there are no cards found, break the loop
