@@ -45,6 +45,7 @@ The project follows an end-to-end data analytics workflow:
 * Matplotlib
 * Jupyter Notebook
 * CSV
+* Time module
 
 ## Project Structure
 
