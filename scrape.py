@@ -46,7 +46,7 @@ for page in range(1,300):
     print("Page", page, "completed")
     time.sleep(1)
 
-# Create a DataFrame from the extracted data
+# Creating a DataFrame from the extracted data
 df = pd.DataFrame({
     'Product Name': product_name,
     'Price': price,
