@@ -56,7 +56,7 @@ df = pd.DataFrame({
 })
 print(df)
 
-# Save data to CSV
+# Saving data to CSV
 df.to_csv("flipkart_products.csv", index=False)
 
 print("Data saved successfully!")
