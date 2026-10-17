@@ -5,7 +5,7 @@ The project follows an end-to-end data analytics workflow:
 1. **Data Collection**
 
    * Collect product information using Python web scraping.
-   * Use `Requests` and `BeautifulSoup` to extract relevant information.
+   * Use `Requests` and `BeautifulSoup` to extract Product information.
 
 2. **Data Cleaning**
 
