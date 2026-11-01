@@ -3,7 +3,7 @@ import requests
 import time
 import pandas as pd
 
-product_name, price, discription, rating, page_number = [], [], [], [], []
+product_name, price, description, rating, page_number = [], [], [], [], []
 
 # Function to extract text from a card element
 def get_text(card, tag, class_name):
